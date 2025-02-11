@@ -7,7 +7,8 @@ using namespace std;
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
-        if (intervals.empty()) return {};
+        if (intervals.empty()) return {};  
+        
 
         // Step 1: Sort intervals by starting time
         sort(intervals.begin(), intervals.end());
