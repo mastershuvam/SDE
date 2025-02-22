@@ -58,7 +58,7 @@ int main() {
     Solution solution;
     vector<int> result = solution.inorderTraversal(root);
 
-    cout << "Inorder Traversal: ";
+    cout << "Inorder Traversal:  ";
     for (int val : result) {
         cout << val << " ";
     }
